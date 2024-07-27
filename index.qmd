@@ -1,0 +1,88 @@
+---
+title: "Journey Summary"
+image: profile_pic.jpeg
+about: 
+  template: solana
+  image-shape: rounded
+  image-width: 15em
+  links:
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/shaggy.camel/
+    - icon: github
+      text: Github
+      href: https://github.com/shaggycamel/
+---
+
+Adventures and events experienced on my six week endeavour exploring the Himalayas in Northern India, are captured as diary entries on this blog. I hope you enjoy reading.
+
+[[Click here to read the blog!]{.underline}](https://shaggycamel-travelblog.netlify.app/blog.html) - Alternatively, click "**Travel Blog**" in the top right hand corner 🤚. This summary page can be returned to by clicking "**Journey Summary**" in the top left hard corner ✋. Best viewing is on larger screens, such as a tablet, laptop or computer.
+
+*\*\*Details outlining technology, software and methodologies used to maintain this blog can be read following the below visualisations.*
+
+The journey:
+
+```{r echo=FALSE, message=FALSE}
+destinations <- list(
+  "Delhi" = list(transport=NA),
+  "Srinagar" = list(transport="flight")
+)
+
+m <- mapBliss::plot_hybrid_route(
+  names(destinations),
+  how = na.omit(purrr::map_chr(destinations, "transport")),
+  label_text = NULL,
+  # colour = as.vector(purrr::map_chr(destinations, "point_colour")),
+  opacity = 0.5,
+  radius = 3
+) |>
+  leaflet::addScaleBar(position = "bottomleft")
+
+m$x$options$zoomControl <- TRUE
+m
+```
+
+<br>
+
+```{r echo=FALSE}
+
+dirs <- c(fs::dir_ls(here::here("posts"), type = "directory"), here::here())
+
+df_token <- 
+    purrr::map_chr(dirs, ~{
+    readr::read_file(paste0(.x, "/index.qmd"))
+  }) |> 
+  paste(collapse = " ") |> 
+  stringr::str_split_1(stringr::regex("---|```", ignore_case = TRUE, multiline = TRUE, dotall = TRUE)) |> 
+  tibble::as_tibble_col(column_name = "text") |> 
+  dplyr::filter(!stringr::str_detect(text, "^\\{|title:")) |> 
+  dplyr::mutate(
+    text = textclean::replace_html(text, symbol = FALSE),
+    text = textclean::replace_url(text),
+    text = stringr::str_remove_all(text, "\\d")
+  ) |> 
+  tidytext::unnest_tokens(word, text) |> 
+  dplyr::mutate(word = textstem::lemmatize_words(word)) |> 
+  dplyr::anti_join(tidytext::stop_words, by = "word") |> 
+  dplyr::count(word, name = "freq") |> 
+  dplyr::mutate(len = stringr::str_length(word)) |> 
+  dplyr::filter(len > 2)
+
+wordcloud2::wordcloud2(df_token, hoverFunction = "off")
+```
+
+# Details
+
+## Camera
+
+My camera is a Sony Alpha A6400. Usually images are captured using the point and click auto-mode. Sunset images are taken using a preset configuration specifically for sunsets.
+
+## Software
+
+For mapping and visualisations I use the programming language **R**, various opensource packages simplify the process of making stunning visuals.
+
+The blog itself is built upon the opensource publishing software: Quarto. Using Quarto allows me to customise the layout in a way that I think captures the imagination of readers and embed images & videos on a page. It also supports, and works in conjunction with R, Python, Julia & Observerable Javascript, meaning it is possible to leverage an impressive array of technologies.
+
+For fine tuning of image layout; such as the image carousels that underlie most paragraphs within a blog post, and embedding sound-bytes, I use HTML. Which is another bonus of using the Quarto framework.
+
+[***For full visibility of code, please check out my github.***](https://github.com/shaggycamel/travel_blog)

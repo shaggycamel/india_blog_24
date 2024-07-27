@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: e5f79104-1d33-41f3-95e6-3c205322266c
+      url: 'https://shaggycamel-indiablog24.netlify.app'

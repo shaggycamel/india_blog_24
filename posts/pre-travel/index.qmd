@@ -1,0 +1,41 @@
+---
+title: "Pre-travel Post"
+author: "Oliver Eaton"
+date: "2024-08-04"
+categories:
+image: "world.jpg"
+---
+
+# Intro ---
+
+
+
+# Potential Excursion
+
+The first three months with a vague framework of planning currently look like this:
+
+```{r echo=FALSE}
+library(purrr)
+library(leaflet)
+source(here::here("functions", "plot_hybrid_route_flex_o.R"))
+
+destinations <- list(
+  "Delhi" = list(label="1: Cairo", transport=NA, label_pos="left", label_ind="0em"),
+  "Luxor" = list(label="2: Luxor", transport="flight", label_pos="right", label_ind="0em")
+)
+```
+
+```{r echo=FALSE, message=FALSE}
+plot_hybrid_route_flex_o(
+  addresses = names(destinations),
+  label_text = map_chr(destinations, "label"),
+  how = na.omit(map_chr(destinations, "transport")),
+  weight=3,
+  colour="purple",
+  zoomControl = c(0.5, 0.8, 0.5, 0.8)
+) |> 
+  addScaleBar(position = "bottomleft")
+```
+
+<br>
+

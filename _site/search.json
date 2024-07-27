@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "India Blog",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPre-travel Post\n\n\n\n\n\n\n\n\n\n\n\nAug 4, 2024\n\n\nOliver Eaton\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Journey Summary",
+    "section": "",
+    "text": "Adventures and events experienced on my six week endeavour exploring the Himalayas in Northern India, are captured as diary entries on this blog. I hope you enjoy reading.\nClick here to read the blog! - Alternatively, click “Travel Blog” in the top right hand corner 🤚. This summary page can be returned to by clicking “Journey Summary” in the top left hard corner ✋. Best viewing is on larger screens, such as a tablet, laptop or computer.\n**Details outlining technology, software and methodologies used to maintain this blog can be read following the below visualisations.\nThe journey:"
+  },
+  {
+    "objectID": "index.html#camera",
+    "href": "index.html#camera",
+    "title": "Journey Summary",
+    "section": "Camera",
+    "text": "Camera\nMy camera is a Sony Alpha A6400. Usually images are captured using the point and click auto-mode. Sunset images are taken using a preset configuration specifically for sunsets."
+  },
+  {
+    "objectID": "index.html#software",
+    "href": "index.html#software",
+    "title": "Journey Summary",
+    "section": "Software",
+    "text": "Software\nFor mapping and visualisations I use the programming language R, various opensource packages simplify the process of making stunning visuals.\nThe blog itself is built upon the opensource publishing software: Quarto. Using Quarto allows me to customise the layout in a way that I think captures the imagination of readers and embed images & videos on a page. It also supports, and works in conjunction with R, Python, Julia & Observerable Javascript, meaning it is possible to leverage an impressive array of technologies.\nFor fine tuning of image layout; such as the image carousels that underlie most paragraphs within a blog post, and embedding sound-bytes, I use HTML. Which is another bonus of using the Quarto framework.\nFor full visibility of code, please check out my github."
+  },
+  {
+    "objectID": "posts/pre-travel/index.html",
+    "href": "posts/pre-travel/index.html",
+    "title": "Pre-travel Post",
+    "section": "",
+    "text": "Intro —\n\n\nPotential Excursion\nThe first three months with a vague framework of planning currently look like this:"
+  },
+  {
+    "objectID": "posts/pre-travel/index.html#egypt",
+    "href": "posts/pre-travel/index.html#egypt",
+    "title": "Excitement Post",
+    "section": "Egypt",
+    "text": "Egypt\n\nCairo\nStarting off in Cairo, a lifelong dream has been to visit the monumental pyramid structures slightly north of the city. Next, the Egyptian Museum, which houses an impressive historical catalogue of artifacts, is a must. The minarets, domes, bazaars and alleyways which make up Islamic Cairo are slated to be the area for our first few nights of accommodation. I am looking forward to sitting in a tiny, quaint cafe sipping black syrupy coffee, smoking shisha, playing backgammon and talking shit with the locals. Witnessing the mesmerising and trance-like whirling ritual of the Dervish is also on the list of things to experience in Cairo.\n\n\nNile Valley\nTravelling south to Luxor, which is described as the world’s largest open-air museum. Luxor grew out of the ruins of Thebes, once the capital of ancient Egypt (1550 - 1069 BC). To foil thieves, and to little avail, Thebean Kings and Queens hid their tombs deep in the surrounding hills, away from the Karnak and Thebes temples. These valleys amongst the hills are known as The Valley of Kings and The Valley of Queens, around sixty tombs have been discovered (so far), including the tomb of Tutankhamun.\nContinuing south to Aswan, Egypt’s southernmost city. Aswan is known for its laid-back atmosphere and the most enchanting part of the Nile, where desert meets the water’s edge. It will be nice to travel here by Felucca (sailboat). From Aswan a day trip to Abu Simbel can be undertaken, Abu Simbel is a historic site comprising two massive rock-cut temples. In 1968 the temples were relocated to make way for a dam to be built across the Nile river, the relocation process itself is an engineering feat, manifesting an intersection between ancient and modern-day engineering.\n\n\nThe Western Desert\nThe oasis of Kharga, or any other oasis town/village, will be fascinating. The desert is virtually uninhabited except for five oases dotted around. To experience a feeling of isolation, see fantastic rock formations and dunes, and observe Egyptian life outside of the cities with mud-brick housing and traditional ways of life is the purpose of visiting Kharga. Hopefully, it will be possible to spend a night under the stars, uninterrupted by light and noise pollution.\n\n\nThe Delta & North Coast\nAlexandria is low on the list and might even be culled, annual flooding and plundering over centuries has ensured little remains testifying to the importance of the Delta in ancient Egyptian times. However, the port of Rosetta is where the famous Rosetta Stone was discovered, this stone enabled a system to be formulated for deciphering/translating hieroglyphics. The stone has been acquired by the Brits and sits within the Museum of London (not surprised).\n\n\nThe Red Sea Coast\nSham El-Sheikh, where the location of 2022’s Climate Change Conference (COP) was held, is known for coral reefs and scuba diving/snorkelling. Time here will be spent swimming/snorkelling in turquoise water and sighting marine life."
+  },
+  {
+    "objectID": "posts/pre-travel/index.html#jordan",
+    "href": "posts/pre-travel/index.html#jordan",
+    "title": "Excitement Post",
+    "section": "Jordan",
+    "text": "Jordan\n\nGulf of Aqaba\nAqaba is the only coastal town in Jordan. Essentially, it will be our entry point into Jordan travelling here by boat. Doing so allows us to bypass Israel. A night or two here will allow us to plan Jordan in a bit more detail.\n\n\nArd as Sawwan Desert\nWadi Musa is the town closest to the Lost City of Petra. Exploring the ruins of Petra is a multi-day event and contains more than just the lost city, it beholds the Siq Corridor, The High Place of Sacrifice and a Monastery hidden high in the hills. I’m anticipating this to be one of the highlights of the trip.\n\n\nAmman\nAmman is the capital of Jordan. A day trip to the Dead Sea is planned, a cleansing float in the salt-rich water of the Dead Sea is something I’ve always wanted to do. We’ll also explore historic sites such as The Citadel and Roman Theatre. Being the capital, and a somewhat younger establishment than the rest of Jordan, Amman might be a city where Trav and I blow off some steam in the nightclubs of Arabia, which will be an experience in itself because Muslims don’t drink alcohol. - Maybe nightclubs and bars, as Westerners know them, don’t exist here?"
+  },
+  {
+    "objectID": "posts/pre-travel/index.html#turkey",
+    "href": "posts/pre-travel/index.html#turkey",
+    "title": "Excitement Post",
+    "section": "Turkey",
+    "text": "Turkey\n\nSouth Coast\nFlying from Amman to Antalya is the cheapest option. Antalya is the biggest city in the south, I don’t think we’ll stay for long, and will organise transit to Bodrum quite quickly. It might be easiest to hire a car in Turkey?\n\n\nWest Coast\nJourneying across the South and up the West Coast, our first stop might be the small port town of Bodrum. Of course, Bodrum has historical components to it, however, the picturesque view overlooking the Mediterranean ocean is what drew our attention here. Bodrum will be a way to relax and ease into Turkey.\nFollowing Bodrum is Izmir. Again, we’re unsure why we chose Izmir. Our main purpose for travelling up the West Coast is to eventually make it to Gallipoli.\n\n\nNorth\nWe plan on being in Gallipoli for Anzac day. I remember being a kid at school and learning about the Anzacs, how they landed on the beaches of Gallipoli and were met with literal nightmares. Being there to commemorate the sacrifice young men and women undertook seems the right thing to do. Not that I condone war, the whole notion of it doesn’t make sense to me, particularly in these modern times.\nOur final destination in Turkey is Istanbul. What was once called Constantinople and occupied by the Romans, was the centre of the world for a long time. Merely holding this territory in the early 1000s, with its high impenetrable walls, ensured economic stability for it strategically straddled various trade routes. The Ottoman empire called Constantinople “the Red Apple” and took it over in the 1480s, which is when Christianity was replaced with the Muslim religion. The architecture and historical importance of Istanbul is what attracted us here."
+  },
+  {
+    "objectID": "posts/pre-travel/index.html#next",
+    "href": "posts/pre-travel/index.html#next",
+    "title": "Excitement Post",
+    "section": "Next…",
+    "text": "Next…\nAfter Istanbul Trav and I will go separate ways, travelling on our own for a bit. This part of the journey is unplanned, although Trav’s high school friend is getting married in Morocco in June, so meeting up for this ceremony will most likely happen."
+  }
+]
