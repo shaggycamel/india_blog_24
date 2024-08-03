@@ -1,0 +1,40 @@
+---
+title: "Delhi (entry)"
+author: "Oliver Eaton"
+date: "2024-08-13"
+categories: [City]
+format: 
+  html:
+    theme: 
+      - pandoc
+# image: "./media_data/islamic/_DSC1049.JPG"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+```
+
+```{r imports}
+library(here)
+library(purrr)
+library(blogme)
+```
+
+Placeholder for Delhi post
+
+```{r}
+destinations <- list(
+  "Auckland" = list(label="Auckland", transport=NA, label_pos="right"),
+  "Singapore" = list(label="Singapore", transport="flight", label_pos="right"),
+  "Delhi" = list(label="Delhi", transport="flight", label_pos="top")
+)
+
+plot_route(
+  names(destinations), 
+  how = map_chr(destinations, "transport"), 
+  label_position = map_chr(destinations, "label_pos"),
+  label_text = map_chr(destinations, "label"),
+  weight=3,
+  colour="blue"
+)
+```
