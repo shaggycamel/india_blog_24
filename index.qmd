@@ -16,7 +16,7 @@ about:
 
 Adventures and events experienced on my six week endeavour exploring the Himalayas in Northern India, are captured as diary entries on this blog. I hope you enjoy reading.
 
-[[Click here to read the blog!]{.underline}](https://shaggycamel-indiablog24.netlify.app/blog.html) - Alternatively, click "**Travel Blog**" in the top right hand corner 🤚. This summary page can be returned to by clicking "**Journey Summary**" in the top left hard corner ✋. Best viewing is on larger screens, such as a tablet, laptop or computer.
+[[Click here to read the blog!]{.underline}](https://shaggycamel-indiablog24.netlify.app/blog.html) - Alternatively, click "**India Blog**" in the top right hand corner 🤚. This summary page can be returned to by clicking "**Journey Summary**" in the top left hard corner ✋. Best viewing is on larger screens, such as a tablet, laptop or computer.
 
 *\*\*Details outlining technology, software and methodologies used to maintain this blog can be read following the below visualisations.*
 
@@ -85,6 +85,8 @@ wordcloud2::wordcloud2(df_token, hoverFunction = "off")
 ## Camera
 
 My camera is a Sony Alpha A6400. Usually images are captured using the point and click auto-mode. Sunset images are taken using a preset configuration specifically for sunsets.
+
+The good photos, one that may make you go "wow" were most likely taken by may father. He's a much better photographer than I am.
 
 ## Software
 

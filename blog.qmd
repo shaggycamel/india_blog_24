@@ -2,9 +2,9 @@
 title: "India Blog"
 listing:
   contents: posts
-  sort: "date dsc"
+  sort: "date asc"
   type: default
-  categories: true
+  # categories: true
   sort-ui: true
   filter-ui: true
 page-layout: full

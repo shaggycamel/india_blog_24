@@ -1,19 +1,5 @@
 [
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "India Blog",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nDelhi (entry)\n\n\n\n\n\n\nCity\n\n\n\n\n\n\n\n\n\nAug 13, 2024\n\n\nOliver Eaton\n\n\n\n\n\n\n\n\n\n\n\n\nPre-travel Post\n\n\n\n\n\n\nYarn\n\n\n\n\n\n\n\n\n\nAug 3, 2024\n\n\nOliver Eaton\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "posts/delhi_entry/index.html",
-    "href": "posts/delhi_entry/index.html",
-    "title": "Delhi (entry)",
-    "section": "",
-    "text": "Placeholder for Delhi post"
-  },
-  {
     "objectID": "posts/pre-travel/index.html",
     "href": "posts/pre-travel/index.html",
     "title": "Pre-travel Post",
@@ -21,24 +7,10 @@
     "text": "Excursion\nI’m writing this one week out from my flight to Delhi.\nMy bag is packed, although, there is a 100% chance that I will repack it throughout the week, just to reassure myself that nothing is forgotten. I still need to buy some underwear, as I’ve recently cleaned out my wardrobe and thrown away raggy/holey clothes.\nIt’s an interesting day today. Today, the 3rd of August, is my sister’s birthday. However, what’s also happening today is my sister is going into labour and will have a baby girl. In the next day or so, I will be an uncle for the first time, a strange feeling resides within me right now.\nThe trip to India is mainly taking place because of my brother. My parents, being the wonderful hippies that they are, have given each one of their children an experience hiking through the Himalayas as a birthday present. My experience was gifted to me when I was 21, in 2012. Back then, I travelled to India with my parents and ventured on a three week expedition through the Zanskar region. This time around we, my parents, brother and I, will do a two week expedition hiking from Zingchem to Zangla, a different valley in the Zansakar region, within the Hemis National Park.\n\n\nFeeling\nBeing “excited” for the trip is an understatement. I’m ecstatic! I can’t wait to be thrown into the midst of uncertainty and chaos. Overloading my senses with strange and new sounds, sights and smells is an addiction. Last year I travelled through Northern Africa and relished in the chaos. My memory of being 21 in India was slightly different. I was probably less confident and comfortable integrating with the crazyness, nevertheless, I loved the trip, and I’m looking forward to seeing how much India has progressed since I was last there.\nIt always interests me to hear the Western world describe “developing” countries as “progressing”. Because, in many ways, I think these countries are already far more progressive than their Western counterparts. The lifestyle within these countries is far more focused on the establishment of relationships. Be that a relationship with family or friends, or a relationship with local small businesses like grocers and butchers. Everything revolves around this structure, which gives life to organic interactions and a stronger feeling of belonging. The only “developing” aspect of these countries is the infrastructure, and by that I mean physical infrastructure, because the digital infrastructure is usually far more agile and advanced than that of New Zealand, for example.\nSo, when I hear someone, particularly as Westerner, describe a country as “developing”, I often wonder if they have thought deeply about that sentiment.\n\n\nWrap Up\nI hope you, whoever you are, follow along with my journey. These are diary entries, meaning I capture whatever thought flows through my mind at the time of writing, with no filter. Other posts will contain photos and descriptions as well."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Journey Summary",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "India Blog",
     "section": "",
-    "text": "Adventures and events experienced on my six week endeavour exploring the Himalayas in Northern India, are captured as diary entries on this blog. I hope you enjoy reading.\nClick here to read the blog! - Alternatively, click “Travel Blog” in the top right hand corner 🤚. This summary page can be returned to by clicking “Journey Summary” in the top left hard corner ✋. Best viewing is on larger screens, such as a tablet, laptop or computer.\n**Details outlining technology, software and methodologies used to maintain this blog can be read following the below visualisations.\nThe journey:"
-  },
-  {
-    "objectID": "index.html#camera",
-    "href": "index.html#camera",
-    "title": "Journey Summary",
-    "section": "Camera",
-    "text": "Camera\nMy camera is a Sony Alpha A6400. Usually images are captured using the point and click auto-mode. Sunset images are taken using a preset configuration specifically for sunsets."
-  },
-  {
-    "objectID": "index.html#software",
-    "href": "index.html#software",
-    "title": "Journey Summary",
-    "section": "Software",
-    "text": "Software\nFor mapping and visualisations I use the programming language R, various opensource packages simplify the process of making stunning visuals.\nThe blog itself is built upon the opensource publishing software: Quarto. Using Quarto allows me to customise the layout in a way that I think captures the imagination of readers and embed images & videos on a page. It also supports, and works in conjunction with R, Python, Julia & Observerable Javascript, meaning it is possible to leverage an impressive array of technologies.\nFor fine tuning of image layout; such as the image carousels that underlie most paragraphs within a blog post, and embedding sound-bytes, I use HTML. Which is another bonus of using the Quarto framework.\nFor full visibility of code, please check out my github."
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nDelhi - entry\n\n\n\n\n\n\n\n\n\n\n\nAug 16, 2023\n\n\nOliver Eaton\n\n\n\n\n\n\n\n\n\n\n\n\nPre-travel Post\n\n\n\n\n\n\n\n\n\n\n\nAug 3, 2024\n\n\nOliver Eaton\n\n\n\n\n\n\nNo matching items"
   }
 ]
