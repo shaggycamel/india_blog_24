@@ -1,7 +1,7 @@
 ---
 title: "Delhi - entry"
 author: "Oliver Eaton"
-date: "2024-08-16"
+date: "2024-08-15"
 image: "./media_data/chandni_chowk/DSC00350.JPG"
 ---
 
