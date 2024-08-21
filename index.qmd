@@ -22,7 +22,7 @@ Adventures and events experienced on my six week endeavour exploring the Himalay
 
 The journey:
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
+```{r map, echo=FALSE, message=FALSE, warning=FALSE}
 destinations <- list(
   "Delhi" = list(transport=NA, point_colour="black"),
   "Srinagar" = list(transport="flight", point_colour="black"),
@@ -53,7 +53,7 @@ m
 
 <br>
 
-```{r echo=FALSE}
+```{r wordcloud, echo=FALSE}
 
 dirs <- c(fs::dir_ls(here::here("posts"), type = "directory"), here::here())
 

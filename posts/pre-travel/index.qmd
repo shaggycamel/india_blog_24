@@ -2,7 +2,7 @@
 title: "Pre-travel Post"
 author: "Oliver Eaton"
 date: "2024-08-03"
-categories: [Yarn]
+# categories: [Yarn]
 image: "india.jpg"
 ---
 

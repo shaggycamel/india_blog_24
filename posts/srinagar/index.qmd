@@ -1,0 +1,100 @@
+---
+title: "Srinagar"
+author: "Oliver Eaton"
+date: "2024-08-19"
+image: "./media_data/dal_lake/DSC00541.JPG"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+```
+
+```{r imports}
+library(here)
+library(purrr)
+library(blogme)
+```
+
+It was India independence day! The streets were extremely quiet, very few shops were open and very few people were out and about. The expulsion of the British is definitely a cause to celebrate, can New Zealand hurry up and withdraw from the Commonwealth? - Our flight from Delhi to Srinagar was at 1:30pm, we took a taxi to the airport at 10.30am. It took a while to move through the airport, the concept of queuing doesn't really exist.
+
+```{r map}
+destinations <- list(
+  "Delhi" = list(label="Delhi", transport=NA, label_pos="bottom"),
+  "Srinagar" = list(label="Srinagar", transport="flight", label_pos="top")
+)
+
+plot_route(
+  names(destinations),
+  how = map_chr(destinations, "transport"),
+  label_position = map_chr(destinations, "label_pos"),
+  label_text = map_chr(destinations, "label"),
+  weight=3,
+  colour="blue"
+)
+```
+
+<br>
+
+We landed in Srinagar after a smooth flight and was greeted by a driver who took us to our hotel. The hotel had been organised by our tour guide (we have a tour guide for the hike). BOOF! - We traipsed into a five-star hotel, marble floor and impressive decor, greeted by an overly smiley doorman and about nine people at reception all bobbling their heads, grinning and saying "Hello Sir, hello Madam. How are you?", they all gestured towards the couches and insisted we take a seat and have a tea. They then hovered around ensuring our comfort. FUCKKK, it was overwhelming! We looked like hobos, wearing hiking boots, hauling backpacks and wearing slimy clothes sweaty from the Delhi humidity. We all felt uncomfortable.
+
+We took the stairs, much to our hosts despair and protest to use the elevator, unpacked in our plush rooms and went for a walk around the local streets. We stopped for dinner and ate delicious Aloo Mutter (potato & pea curry) & Daal for dinner.
+
+# Wander
+
+On our first night at the five-star freak show Trav was sick, awaking in the night to vomit and diarrhea. Poor guy. Maybe it was the KFC we had at the airport yesterday. I vowed to stick to vegetarian food for the rest of the trip. It's the Indian attempt at Western food, that's what gets ya. Mum, Dad & I had breakfast at the Hotel and discussed the possibility of vacating to simpler accommodation. After breakfast, Dad & I crossed the road, found a place and inquired. Too easy! We packed our bags, paid the exorbitant price and said au-revoir, the new place felt much more comfortable. People didn't hover around you like flies to shit.
+
+With Trav being out for the day, Mum, Dad & I decided to just wander the streets. Mum was eager to find a rug for Lila's bedroom, Lila is our new family member, Renee had a daughter a few days before the India trip. After a decent foot-tour of the surrounding area, we stumbled into a carpet store and had a nosey. There was some really cool rugs, if I owned a house I would definitely have bought one.
+
+Afterwards, we continued exploring the area making our way home around 4pm.
+
+```{r wander}
+carousel("wndr", here("posts", "srinagar", "media_data", "wander", "wander.yml"))
+```
+
+# Pather Masjid
+
+We picked up Trav, who had spent the day resting, and aimed to visit the large Mosque, aptly named Jama Masjid - the same name as the Delhi Mosque. It was a decent walk away, so we set off. Trav wasn't feeling well, so we took it slow. We never actually made it to Jama Masjid, instead, we wound up at a Mosque called Pather Masjid. It is a stone Mosque that was erected in the 1500s, it was stunnig! It was quite blocky and gave off Roman/Greek vibes but the curvy patterns carved into the stone was definitely Islamic. Families were relaxing outside, we took a few photos with them, sending them via WhatsApp the following day.
+
+Trav started to fade, so we set off home, taking a tuktuk instead of walking this time. Trav left for the hotel, Mum, Dad & I went for dinner. We found a lovely vegetarian *family restaurant*, which means a place where more than just men are welcome, I think.
+
+```{r pather-masjid}
+carousel("pather", here("posts", "srinagar", "media_data", "pather_masjid", "pather_masjid.yml"))
+```
+
+# Hari Parbat Fort
+
+In the middle of the night, Tundip, the man organising our trek, arrived at our hotel. We met in the morning and had a laugh, he's a jovial, cheeky man from the very north of India (by Tibet). He will drive us to Kargil tomorrow, but we organised a day of sightseeing together in Srinagar. We decided to see Hari Parbat (fort), Jama Masjid and a Shikara boat ride on Dal Lake.
+
+Because there was now five of us, we took two tuktuks to Hari Parbat Fort, it was quite a while away, perched atop the highest point in town. It was heavily guarded by military, we walked a kilometre or so up the hill from the carpark to the fort. It had the most spectacular views of the city, surrounding mountains and scattered lakes.
+
+```{r hari-parbat}
+carousel("fort", here("posts", "srinagar", "media_data", "hari_parbat", "hari_parbat.yml"))
+```
+
+<br>
+
+{{< video https://youtu.be/VSNCYylkMAo >}}
+
+# Dal Lake - Shikara
+
+We left the fort by tuktuk and stopped for lunch. Mum and Dad wanted to visit a carpet store before it closed at 7pm, so we discussed culling Jama Masjid from our plan and doing just the Shikara instead. We've seen enough Mosque's anyway.
+
+A Shikara is a slim boat that was originally used to transport people and goods to and from house boats that used to be anchored in the middle of the lake. The house boats were in the middle because the British weren't allowed to own land in Kashmir during their occupation of India. Now that they're gone (good riddens), the house boats line the shores.
+
+The Shikara was a nice meandering float in Dal Lake for just over an hour. We passed lots of other Indian tourists having the same Shikara experience. Touts rowed up to us and attempted to sell coffee, tea, watches, egg timers, bongs, hookah, the usual nik-naks. It was a nice experience, the house boats are quite incredible. Afterwards we walked back to the hotel.
+
+```{r dal-lake}
+carousel("dal", here("posts", "srinagar", "media_data", "dal_lake", "dal_lake.yml"))
+```
+
+# Thoughts & Feelings
+
+The pace at Srinagar is much slower than Delhi. People don't pester you as much, they still approach, but accept "No" far more easily. The temperature was pleasant, sitting around 29 degrees with far less humidity than Delhi. It rained a lot, which maintained the cool feeling. One morning had thunder and lightning for hours which was really cool.
+
+The main religion here is Islam, and honestly, I find Islam produces people who are a bit more genuine than Hinduism. There is less scramble for the top, and less emphasis on the caste system, which dictates a lot how India operates and how Indians treat one another.
+
+Tomorrow we leave for Kargil, leaving at 5am and driving over the Zojila pass. We have just one night there as a stopover on our way to Leh.
+
+```{r misc}
+carousel("misc", here("posts", "srinagar", "media_data", "misc", "misc.yml"))
+```

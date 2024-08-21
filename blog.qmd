@@ -2,7 +2,7 @@
 title: "India Blog"
 listing:
   contents: posts
-  sort: "date asc"
+  sort: "date dsc"
   type: default
   # categories: true
   sort-ui: true

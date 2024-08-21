@@ -1,11 +1,7 @@
 ---
 title: "Delhi - entry"
 author: "Oliver Eaton"
-date: "2023-08-16"
-format: 
-  html:
-    theme: 
-      - pandoc
+date: "2024-08-16"
 image: "./media_data/chandni_chowk/DSC00350.JPG"
 ---
 
@@ -64,6 +60,10 @@ Onwards, to the clothing section. Chaos followed us, or did it spread and we fol
 carousel("chowk", here("posts", "delhi-entry", "media_data", "chandni_chowk", "chandni_chowk.yml"))
 ```
 
+<br>
+
+{{< video https://youtu.be/nDfhI4cCA-0 >}}
+
 # Akshardham Mandir
 
 Akshardham Mandir is a Hindu temple. After searching for a place to have omelette for breakfast - we vied for something less heavy than southern curry to start the day - we took the metro to the temple. To the metro was busy, pick-pocket territory, I removed everything from my pockets and stored my bag on the front of my body. It was hot walking from the metro to the temple. Security at the temple was insane! First a bag scan for drones, second a declaration of all electronic items including smart watch, phones, camera which had to be remain in your bag and your stored away. Thirdly, a full body scan, pat down and thorough search of pockets. I'm not sure why security was so tight, I have a feeling it has something to do with Hindu nationalism and a disdain for Muslims. But, I'm not exactly sure! Anyway, the temple was stunning! Intricate hard carved walls of sandstone lined the premise, which told a story of Srinirayan Akshardham (a Jesus like figure) and the Hindu journey. Walking the black and white tiles towards the temple drew quite a spectacular view. It's a shame photography wasn't allowed. We removed our shoes to enter. Hindu's were on their knees, some even their stomachs, praying to the idol in the middle. Each load bearing pole resembled a totem with detailed carvings. We walked the interior walls reading and learning about Hinduism. It sounds a bit culty, in my opinion. Regardless, I admire the care for all livings that is embraced within the religion (hence vegetarianism).
@@ -86,7 +86,7 @@ carousel("connaught", here("posts", "delhi-entry", "media_data", "connaught_plac
 
 # Thoughts & Feelings
 
-India has changed since I last was here. I remember stopping to drink coke from glass bottles and returning them to the vendor once done, now all drinks are tin cans. There are less beggars and standard of living has generally improved across all facets of life. WiFi is abundant, I remember only accessing internet from internet cafes. Tuktuks are now electric vehicles. And, there is far less cigarette smoking! In fact, I have seen very few people smoking compared to almost every male a decade ago. What hasn't changed is the constant sales pitch and drive to deliver you Western comfort. I didn't come to India to experience western things, I don't want to be comfortable. Instead, I want to feel uncertain, I want to feel out-of-depth and I want to experience things and be stimulated in ways that I cannot back home. It's a shame that I cut so many people off from conversation because I'm afraid of being scammed. These people may be genuine, but I would rather not take the risk. It's sad.
+India has changed since I last was here. I remember stopping to drink coke from glass bottles and returning them to the vendor once done, now all drinks are tin cans. There are less beggars and standard of living has generally improved across all facets of life. WiFi is abundant, I remember only accessing internet from internet cafes. Tuktuks are now electric vehicles. Men hold hands less, I vividly remember grown men holding hands to signify friendship, that doesn't happen anymore. And, there is far less cigarette smoking! In fact, I have seen very few people smoking compared to almost every male a decade ago. What hasn't changed is the constant sales pitch and drive to deliver you Western comfort. I didn't come to India to experience western things, I don't want to be comfortable. Instead, I want to feel uncertain, I want to feel out-of-depth and I want to experience things and be stimulated in ways that I cannot back home. It's a shame that I cut so many people off from conversation because I'm afraid of being scammed. These people may be genuine, but I would rather not take the risk. It's sad.
 
 What's funny is, I experienced feelings of "home" after a few hours in Delhi. It makes me wonder, is home really a place, or is home more closely associated with *feeling*? And, why does my feeling of home differ drastically from the status quo?
 
