@@ -29,6 +29,7 @@ destinations <- list(
   "Kargil" = list(transport="car", point_colour="black"),
   "Leh" = list(transport="car", point_colour="black"),
   "Turtuk" = list(transport="car", point_colour="black"),
+  "Disket" = list(transport="car", point_colour="black"),
   "Leh" = list(transport="car", point_colour="black")
   # "Hemis National Park" = list(transport="car", point_colour="red"),
   # "Zangla" = list(transport="foot", point_colour="red"),

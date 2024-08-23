@@ -200,14 +200,14 @@
     },
     "blogme": {
       "Package": "blogme",
-      "Version": "0.0.2.0",
+      "Version": "0.0.2.1",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteUsername": "shaggycamel",
       "RemoteRepo": "blogme",
       "RemoteRef": "master",
-      "RemoteSha": "f9a5800f2de31297801f064736d91c2c387c8877",
+      "RemoteSha": "d79593e686a90b58e90065136ecc6433df7cef7c",
       "Remotes": "https://github.com/benyamindsmith/mapBliss.git",
       "Requirements": [
         "R",
@@ -223,7 +223,7 @@
         "stringr",
         "yaml"
       ],
-      "Hash": "d2e926ead8bc288938a178e1b0392a9c"
+      "Hash": "66df0dbd73f6eaf3aca322f0665f2061"
     },
     "bslib": {
       "Package": "bslib",

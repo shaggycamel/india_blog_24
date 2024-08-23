@@ -2,7 +2,7 @@
 title: "Kargil"
 author: "Oliver Eaton"
 date: "2024-08-18"
-image: "./media_data/dal_lake/DSC00541.JPG"
+image: "./media_data/zoji_la/DSC00569.JPG"
 ---
 
 ```{r setup, include=FALSE}
@@ -15,7 +15,7 @@ library(purrr)
 library(blogme)
 ```
 
-We departed from Srinagar in a car organised by our tour guide at 5am, set for Kargil. It will be just a quick stopover there, consisting of one night.
+We departed from Srinagar in a car organised by our tour guide at 5am, set for Kargil. It will be just a quick stopover there, consisting of one night. The drive took 9 hours to travel around 250km. We stopped for meals and photos along the way, which probably extended the duration longer than necessary.
 
 ```{r map}
 destinations <- list(
@@ -32,15 +32,18 @@ plot_route(
   colour="blue"
 )
 ```
+
 <br>
 
-Kargil is a small Muslim town sandwiched between the Suru river and picturesque mountains.
+Kargil is a small Muslim town sandwiched between the Suru River and a picturesque mountain backdrop. We have entered Himalayan territory, so every view is complemented with breathtaking mountain vistas.
 
 # Zoji La (pass)
 
-In the first few hours of the drive, we drove over the Zoji La (La means pass). This was our first encounter with altitude. Luckily we were passengers in the vehicle, I wouldn't want to be behind the wheel of a car experiencing a headache and clumsiness bought on by high altitude.
+In the first few hours of the drive, we drove over the Zoji La (La means pass). This was our first encounter with altitude. Luckily we were passengers in the vehicle, I wouldn't want to be behind the wheel of a car experiencing a headache and clumsiness brought on by high altitude.
 
-The Zoji La is the second highest pass in the Zanskar region at around 3500 metres. It was cold at the top, and I was really glad to have worn a jacket and have a sweatshirt handy. Warm clothes went against intuition because Srinagar was relatively warm.
+The Zoji La is the second-highest pass in the Zanskar region at around 3500 metres. It was cold at the top, and I was happy to have worn a jacket and had a sweatshirt handy. Warm clothes went against intuition because Srinagar was relatively warm.
+
+We got out to take photos, my feet felt twice as heavy as normal. Signs from the Border Roads Organisation (BRO) were scattered all over the place with rather funny anecdotes, like: "Drinking Whisky? - Driving Risky".
 
 ```{r zoji-la}
 carousel("zoji_la", here("posts", "kargil", "media_data", "zoji_la", "zoji_la.yml"))
@@ -48,9 +51,11 @@ carousel("zoji_la", here("posts", "kargil", "media_data", "zoji_la", "zoji_la.ym
 
 # Wander
 
-The small town of Kargil is really cute. There is just one main road and residents are constantly out there going about their business. I'm not sure of the population, but with the amount of people visible, it feels much larger than it probably is.
+The small town of Kargil is really cute. There is just one main road and residents are constantly out there going about their business. I'm not sure of the population, but with the amount of people visible, it feels much larger than it probably is. We ate dinner at a restaurant that had an enlarged photograph of a mountain. Trav mentioned that it bore a striking resemblance to Aoraki. We asked the restaurant guys where it was taken, they said it was an edited photograph, and every component of it was fabricated. Trav, not being able to put it to rest, found the exact photo online, and sure enough, it was of Aoraki. How funny? To find a large photo of Aoraki on a wall of a restaurant in a little village in the Himalayan ranges.
 
-We stayed in a wonderful hotel with spectacular views of the mountain ranges. Although, a masjid (mosque) was directly next door, so the call to prayer boomed through our windows at 4.30am. Usually I like the call to prayer, it's such a pleasant ambiance, however, on this particular occasion it was so loud and early in the morning that it was annoying.
+We stayed in a wonderful hotel with spectacular views of the mountain ranges. Although, a Masjid (mosque) was directly next door, so the call to prayer boomed through our windows at 4.30am. Usually, I like the call to prayer, it has such a pleasant ambience, however, on this particular occasion it was so loud and early in the morning that it was annoying.
+
+Our programme of altitude sickness pills was started here.
 
 ```{r wander}
 carousel("wndr", here("posts", "kargil", "media_data", "wander", "wander.yml"))
@@ -60,9 +65,9 @@ carousel("wndr", here("posts", "kargil", "media_data", "wander", "wander.yml"))
 
 Kargil is a quaint little town, people are friendly and genuine. Not once did we feel pressured to purchase anything or were followed by beggars or touts. Most just wanted to stop and say hello.
 
-Some interesting signs exclaiming to boycott Israeli products and openly stating that Israeli people were not welcome in Kargil, could be seen dotted around the main street. The Islamic community really have rallied against the Israeli's and the war waged against Palestine. I get it, but your everyday Israeli has no control over what their government does. Most probably disagree with it completely. I haven't met enough Israeli's to formulate a proper opinion about it, but, given the benefit of the doubt, most Israeli's probably aren't that bad. Are they?
+Some interesting signs exclaiming to boycott Israeli products and openly stating that Israeli people were not welcome in Kargil, could be seen dotted around the main street. The Islamic community really have rallied against the Israelis and the war waged against Palestine. I get it, but your everyday Israeli has no control over what their government does. Most probably disagree with it completely. I haven't met enough Israelis to formulate a proper opinion, but, given the benefit of the doubt, most Israelis probably aren't that bad. Are they?
 
-Tomorrow we drive eights hours to Leh, in the same car and with the same driver.
+Tomorrow we drive eight hours to Leh, in the same car with the same driver: a 23-year-old Zanskari boy named Tansing, he's quite shy.
 
 ```{r misc}
 carousel("misc", here("posts", "kargil", "media_data", "misc", "misc.yml"))
