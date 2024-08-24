@@ -1,0 +1,56 @@
+---
+title: "Diskit"
+author: "Oliver Eaton"
+date: "2024-08-24"
+image: "./media_data/zoji_la/DSC00569.JPG"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+```
+
+```{r imports}
+library(here)
+library(purrr)
+library(blogme)
+```
+
+I woke up feeling unwell, it was constipation (embarrassing). When I lose the regularity of a routine my body gets confused and I go days without shitting. Our plan today was to drive to a town called Diskit and see the Buddhist Monastery.
+
+```{r map}
+destinations <- list(
+  "Turtuk" = list(label="Turtuk", transport=NA, label_pos="bottom"),
+  "Diskit" = list(label="Diskit", transport="car", label_pos="top")
+)
+
+plot_route(
+  names(destinations),
+  how = map_chr(destinations, "transport"),
+  label_position = map_chr(destinations, "label_pos"),
+  label_text = map_chr(destinations, "label"),
+  weight=3,
+  colour="blue"
+)
+```
+
+We will be here just one night before completing our side-quest and arriving back in Leh.
+
+# Monastery (Afternoon)
+
+The Diskit Buddhist Monastery is the oldest and largest in Ladakh, and probably in India, although I can't quite confirm that. It is the whole reason we came to Diskit, and it did not disappoint.
+
+Moving between the Buddah statue and Monastery required driving, the complex is large. We first explored the Monastery, which is made up of four temples. Photography inside the temples was not allowed. Each temple was slightly different and probably served different purposes. One had statues of various archaic, slightly scary looking creatures, which were gods. Others contained ancient scriptures and photos different Dali Lamas, another looked like a library. All were ancient, with wooden floors and a musky smell, laden with incense. Something to mention about Buddhist Monasteries is, one must move clockwise around the stupas, and prayer wheels must be spun clockwise. Because of this requirement, the layout of monasteries do not follow normal, logical designs. Buddhism is all about the cycle of life and this is taken quite literally.
+
+After the temples, we moved to the Buddah statue. It stands 33 metres tall, towering over people beneath it. Aside from the statue, there is not much else in this section of the Monastery.
+
+Tomorrow morning we will return to the Monastery at 7am to watch the Monks chant.
+
+```{r zoji-la}
+carousel("afternoon", here("posts", "diskit", "media_data", "monastery_afternoon", "monastery_afternoon.yml"))
+```
+
+# Monastery (Morning)
+
+# Thoughts & Feelings
+
+I wish I was feeling healthier.
