@@ -79,7 +79,7 @@ We arrived in Leh, which is the largest city in Ladakh with a population of arou
 
 The markets in Leh are such wonderful workshops for locals. Negotiation, barter, deception, networking, wins & losses take place here. As well as the dedicated markets (there are pockets of them all over the city), the streets are lined with dedicated shops that sell much the same goods and products as the markets. The types of things one can buy here are Tibetan jewellery (usually laden with Turquoise), Yak/Pashmina wool products (scarves, shawls, clothing, etc...), all types of clothing, hardware like farming tools, pretty much anything.
 
-The selection of mountaineering clothing for sale is in abundance here, I believe outdoor pursuits are the reason most tourists come here. So, I purchased myself a really nice pair of hiking pants for 1500 rupees (\$30 NZD). I also got myself a black corduroy shirt I can wear in casual situations back home. Trav got the purchase of the stay I think, that being a pashmina wool robe that looks like something you can trounce around the house in when working from home. I want one for myself actually, it looks extremely comfortable and warm.
+The selection of mountaineering clothing for sale is in abundance here, I believe outdoor pursuits are the reason most tourists come here. So, I purchased myself a really nice pair of hiking pants for ₹1500 (\$30 NZD). I also got myself a black corduroy shirt I can wear in casual situations back home, and some jewellery for loved ones. Trav got the purchase of the stay I think, that being a pashmina wool robe that looks like something you can trounce around the house in when working from home. I want one for myself actually, it looks extremely comfortable and warm.
 
 ```{r wander}
 carousel("wndr", here("posts", "leh-1", "media_data", "wander", "wander.yml"))
@@ -91,7 +91,7 @@ In the morning we convened in the office of our tour guide, it's a cute one-room
 
 Views from the Monastery allowed one to see the entire city of Leh, we also watched two Army fighter jets cruise and do laps around nearby mountain ranges. It was really loud but fascinating to watch.
 
-We then walked down the opposite side of the hill to the fort. We didn't go inside because it cost 300 rupees, which isn't too much, but forts aren't something that greatly interests us. Regardless, it's quite a big structure and would've been a formidable form of defence in the past.
+We then walked down the opposite side of the hill to the fort. We didn't go inside because it cost ₹300, which isn't too much, but forts aren't something that greatly interests us. Regardless, it's quite a big structure and would've been a formidable form of defence in the past.
 
 ```{r fort-monastery}
 carousel("fort_monastery", here("posts", "leh-1", "media_data", "leh_fort_monastery", "leh_fort_monastery.yml"))
