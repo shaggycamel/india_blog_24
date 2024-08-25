@@ -52,3 +52,6 @@ rsconnect/
 
 # Media files
 *.MP4
+
+# Random files
+*.DS_Store
