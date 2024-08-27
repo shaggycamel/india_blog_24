@@ -1,0 +1,93 @@
+---
+title: "Turtuk"
+author: "Oliver Eaton"
+date: "2024-08-22"
+image: "./media_data/zoji_la/DSC00569.JPG"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+```
+
+```{r imports}
+library(here)
+library(purrr)
+library(blogme)
+```
+
+Turtuk is a village 10km from the border of Pakistan. Its roots are Baltistani, the Baltistan region stretches from x to Y. It is interesting to see the vast cultural shift in such a short distance. The village itself is amongst the hills, completely connected by footpath and is not suitable for cars, bikes, horses, anything other than foot really. A comprehensive irrigation network provides water originating in the mountains to everywhere in the village. This provides every household with drinking/cooking water, water for crops and water for washing. Additionally, having running water in literally every nook and cranny of the village keeps it cool in the hot summer months.
+
+```{r map}
+destinations <- list(
+  "Leh" = list(label="Leh", transport=NA, label_pos="bottom"),
+  "Turtuk" = list(label="Turtuk", transport="car", label_pos="top")
+)
+
+plot_route(
+  names(destinations),
+  how = map_chr(destinations, "transport"),
+  label_position = map_chr(destinations, "label_pos"),
+  label_text = map_chr(destinations, "label"),
+  weight=3,
+  colour="blue"
+)
+```
+
+While in Turtuk, we mainly explored the village, stumbling across and visiting a Baltistan Museum. We did venture to the nearby Buddhist Monastery and attempt to do a hike in the hills but were stopped by the military. Understandable, this is an area of high contention (it used to be Pakistan), civilians shouldn't be wandering around with the chance of being shot.
+
+# Khardung La
+
+We set off for Leh at 7.30am. About two hours in we crossed Khardung La which sits at an elevation of around 5400 metres. I had a small, persistent headache from the altitude.
+
+```{r khardung}
+carousel("khardung", here("posts", "turtuk", "media_data", "khardung", "khardung.yml"))
+```
+
+# Women's Reguge
+
+My sister Renee has recently had a baby, and Mum acquired an abundance of baby clothes from friends and family to give to her. The overflow that Renee didn't want, Mum decided to donate to a Women's Refuge in Turtuk. I'm not sure exactly why Mum chose Turtuk in particular, but it's an admirable thing to carry a sack full of clothes halfway across the world to a tiny remote village and donate. The Women's Refuge people were stoked, Mum & Dad took some photos in local Baltistani garb with them.
+
+```{r refuge}
+carousel("refuge", here("posts", "turtuk", "media_data", "womens_refuge", "womens_refuge.yml"))
+```
+
+# Baltistan Museum
+
+The Baltistan Museum was a real history lesson. Before country borders were a thing, Baltistan occupied the North-West Himalayan region which now straddles across Pakistan and India. It wasn't a museum per se, rather, it was the King's palace and we had a tour around it, with an in-depth description of the purpose of each room and the Baltistani empire in general.
+
+The palace was a two-storey wooden house, with thick walls to keep inhabitants warm during winter - which gets to minus 20 Celsius. It was eerily quiet inside due to the extremely thick walls. The centre was a courtyard design, with an open roof, and rooms lining the perimeter. I'm not sure how they would've kept the snow out if the roof was open. In the palace we saw the men's room, the women's room which was also the kitchen (sorry girls), the speaking post - the verandah where the king addressed the city, and the upstairs trophy room/chill area. The trophy room contained ibex horns and taxidermy animals. In the end, we met a direct descendant of the last Baltistani King, who still lives in the village of Turtuk.
+
+```{r museum}
+carousel("museum", here("posts", "turtuk", "media_data", "museum", "museum.yml"))
+```
+
+# Monastery
+
+We woke with the intention of doing a 10km hike up the hills, but after about 2km in, a soldier at a military post stopped us and requested we turn back. At first, we thought it was a bit extreme, but after thinking about it, our safety is their main concern.
+
+So we wandered the main road into Turtuk, walking along the road and cutting back into the village. Staying amongst the trees and running water is a much nicer environment. Our destination was the Monastery on the outskirts of the village.
+
+The Monastery had nice views of the village, and the K25 peak could be spotted. It was a nice spot to chill for a bit and catch our breath. The altitude still makes us short of breath quickly.
+
+```{r monastery}
+carousel("mnstry", here("posts", "turtuk", "media_data", "monastery", "monastery.yml"))
+```
+
+# Thoughts & Feelings
+
+Turtuk is a really tranquil, peaceful Islamic village. They embrace their Baltistan heritage and most restaurants serve Balti food, and shops sell traditional Balti clothing.
+
+It was interesting to see the amount of Israeli tourists. Most shop signs were in Hebrew and some tourists even asked us for directions in Hebrew. They were everywhere. Mum and Dad can't seem to stand them, I don't have any reason yet to find disdain for them.
+
+The cutest thing worth mentioning is, one night we went out for dinner, and a young boy, who looked about eight, beckoned us into his restaurant. He shook our hands upon entry and directed us to seats. His English was very good, we found out he was in fact eleven. He took our orders and introduced us to the chef, and then his father came to pick him up. I don't even think he worked there, he was just hanging out, practising his English. The meal was good too, I remember the power went out at one stage, and we were eating in the dark, which was a bit of fun.
+
+Our next destination is Diskit, where we will visit a large Monastery.
+
+```{r misc}
+carousel("misc", here("posts", "turtuk", "media_data", "misc", "misc.yml"))
+```
+
+<br>
+
+{{< video https://youtu.be/uNH_A5wqyX0 >}}
+
