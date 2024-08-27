@@ -1,8 +1,8 @@
 ---
 title: "Diskit"
 author: "Oliver Eaton"
-date: "2024-08-24"
-image: "./media_data/zoji_la/DSC00569.JPG"
+date: "2024-08-25"
+image: "./media_data/monastery_afternoon/20240824_150412.jpg"
 ---
 
 ```{r setup, include=FALSE}
@@ -19,8 +19,8 @@ I woke up feeling unwell, it was constipation (embarrassing). When I lose the re
 
 ```{r map}
 destinations <- list(
-  "Turtuk" = list(label="Turtuk", transport=NA, label_pos="bottom"),
-  "Diskit" = list(label="Diskit", transport="car", label_pos="top")
+  "Turtuk" = list(label="Turtuk", transport=NA, label_pos="top"),
+  "Diskit" = list(label="Diskit", transport="car", label_pos="bottom")
 )
 
 plot_route(
@@ -59,12 +59,12 @@ All up, the chant lasted forty-five minutes or so. Despite the grunting, slurpin
 
 No photography was allowed.
 
-```{r morning}
-carousel("morning", here("posts", "diskit", "media_data", "monastery_morning", "monastery_morning.yml"))
-```
-
 # Thoughts & Feelings
 
-I wish I was feeling healthier. My mind was focused on expelling shit from my body, I had a headache, felt heavy and could not think straight. 
+I wish I was feeling healthier. My mind was focused on expelling shit from my body, I had a headache, felt heavy and could not think straight.
 
 We stayed at a really nice guest house, where the Woman cooked the most amazing food and the man was very jovial and fun. Diskit is a cute little village. It felt clean, although, aside from the Monastery, there is not much else there. Maybe it is a nice place to retire and practice Buddhism?
+
+```{r misc}
+carousel("misc", here("posts", "diskit", "media_data", "misc", "misc.yml"))
+```

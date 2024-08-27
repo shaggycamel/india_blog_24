@@ -90,4 +90,3 @@ carousel("misc", here("posts", "turtuk", "media_data", "misc", "misc.yml"))
 <br>
 
 {{< video https://youtu.be/uNH_A5wqyX0 >}}
-
