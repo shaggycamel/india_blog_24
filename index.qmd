@@ -1,6 +1,6 @@
 ---
 title: "Journey Summary"
-image: profile_pic.jpeg
+image: profile_pic.JPG
 about: 
   template: solana
   image-shape: rounded

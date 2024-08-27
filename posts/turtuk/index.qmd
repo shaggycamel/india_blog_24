@@ -1,8 +1,8 @@
 ---
 title: "Turtuk"
 author: "Oliver Eaton"
-date: "2024-08-22"
-image: "./media_data/zoji_la/DSC00569.JPG"
+date: "2024-08-24"
+image: "./media_data/misc/_DSC7892.JPG"
 ---
 
 ```{r setup, include=FALSE}

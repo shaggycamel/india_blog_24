@@ -1,0 +1,70 @@
+---
+title: "Diskit"
+author: "Oliver Eaton"
+date: "2024-08-24"
+image: "./media_data/zoji_la/DSC00569.JPG"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+```
+
+```{r imports}
+library(here)
+library(purrr)
+library(blogme)
+```
+
+I woke up feeling unwell, it was constipation (embarrassing). When I lose the regularity of a routine my body gets confused and I go days without shitting. Our plan today was to drive to a town called Diskit and see the Buddhist Monastery.
+
+```{r map}
+destinations <- list(
+  "Turtuk" = list(label="Turtuk", transport=NA, label_pos="bottom"),
+  "Diskit" = list(label="Diskit", transport="car", label_pos="top")
+)
+
+plot_route(
+  names(destinations),
+  how = map_chr(destinations, "transport"),
+  label_position = map_chr(destinations, "label_pos"),
+  label_text = map_chr(destinations, "label"),
+  weight=3,
+  colour="blue"
+)
+```
+
+We will be here just one night before completing our side quest and arriving back in Leh.
+
+# Monastery (Afternoon)
+
+The Diskit Buddhist Monastery is the oldest and largest in Ladakh, and probably in India, although I can't quite confirm that. It is the whole reason we came to Diskit, and it did not disappoint.
+
+Moving between the Buddha statue and the Monastery required driving, the complex is large. We first explored the Monastery, which is made up of four temples. Photography inside the temples was not allowed. Each temple was slightly different and probably served different purposes. One had statues of various archaic, slightly scary-looking creatures, which were gods. Others contained ancient scriptures and photos of different Dali Lamas, another looked like a library. All were ancient, with wooden floors and a musky smell, laden with incense. Something to mention about Buddhist Monasteries is, that one must move clockwise around the stupas, and prayer wheels must be spun clockwise. Because of this requirement, the layout of monasteries does not follow normal, logical designs. Buddhism is all about the cycle of life and this is taken quite literally.
+
+After the temples, we moved to the Buddha statue. It stands 33 metres tall, towering over people beneath it. Aside from the statue, there is not much else in this section of the Monastery.
+
+Tomorrow morning we will return to the Monastery at 7am to watch the Monks chant.
+
+```{r afternoon}
+carousel("afternoon", here("posts", "diskit", "media_data", "monastery_afternoon", "monastery_afternoon.yml"))
+```
+
+# Monastery (Morning)
+
+We woke at 6am to catch the Monk's chanting in the morning. We rocked up the prayer room, where we were the day before, and waited until 7am. The whole process was a bit confusing, in terms of where to sit, how to behave, and what to do. Most of the time we followed what our driver Tansing did. We found seats against the wall, ten or so other tourists were there too. The air was thick with incense. Four old Monks shuffled into the room, and sat at little desks in the middle, facing each other. Two young Monks rushed around feeding porridge to the old men and serving chai. The young Monks then took a seat at the entrance, away from the elderly Monks. One middle-aged monk sat with them.
+
+After slurping their porridge, the old monks reached into their desks and pulled out yellow and green cards with writing in Bodhi on them. These contained the chant they were reciting this morning. Suddenly, they began. It was hard to follow, there did not seem to be any rhythm to it and sometimes a Monk would stop to eat his porridge. One rather old Monk kinda just grunted every now and again, another was more interesting eating, even requesting noodles.
+
+All up, the chant lasted forty-five minutes or so. Despite the grunting, slurping and scented air, it was quite hypnotic. I'm really glad we got up to witness it. Watching the sunrise from the top of the Monastery was breathtaking.
+
+No photography was allowed.
+
+```{r morning}
+carousel("morning", here("posts", "diskit", "media_data", "monastery_morning", "monastery_morning.yml"))
+```
+
+# Thoughts & Feelings
+
+I wish I was feeling healthier. My mind was focused on expelling shit from my body, I had a headache, felt heavy and could not think straight. 
+
+We stayed at a really nice guest house, where the Woman cooked the most amazing food and the man was very jovial and fun. Diskit is a cute little village. It felt clean, although, aside from the Monastery, there is not much else there. Maybe it is a nice place to retire and practice Buddhism?
