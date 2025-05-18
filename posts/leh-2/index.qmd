@@ -1,0 +1,62 @@
+---
+title: "Leh - Return"
+author: "Oliver Eaton"
+date: "2024-08-28"
+image: "./media_data/zoji_la/DSC00569.JPG"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
+```
+
+```{r imports}
+library(here)
+library(purrr)
+library(blogme)
+```
+
+After seeing the chanting Monks in the morning, we had breakfast at the guesthouse and hit the road back to Leh. This entails crossing the Khardung La pass again. I still wasn't feeling well, and was very grumpy. Being constipated is a horrible feeling.
+
+```{r map}
+destinations <- list(
+  "Diskit" = list(label="Diskit", transport=NA, label_pos="bottom"),
+  "Leh" = list(label="Leh", transport="car", label_pos="top")
+)
+
+plot_route(
+  names(destinations),
+  how = map_chr(destinations, "transport"),
+  label_position = map_chr(destinations, "label_pos"),
+  label_text = map_chr(destinations, "label"),
+  weight=3,
+  colour="blue"
+)
+```
+
+We had one and a half days planned in Leh, but this turned to two and a half days because the beginning of our trek got pushed out a day.
+
+While here we stocked up on supplies like toilet paper, hand sanitiser and water, and also did some general shopping. I got myself a pair of shoes, Trav a new backpack. The shoes were funny, they came without laces. As I bought some new (from a shoe cleaner), he tried to insert them, but the tounge had been sewn to the shoe. It was impossible to put them in. So I had to see another shoe cleaner, who also specialised in repairs. He had a little shiv that cut the thread which held the tongue in place, and finally, the laces could be thread. The shoes looked good, tiger rip-offs for \$30NZD.
+
+# Shave
+
+Before starting the hike, I needed to shave. Long beards require too much maintenance. So I found a hairdresser to shave me with a cut-throat razor for ₹100.
+
+```{r shave}
+carousel("shave", here("posts", "leh-2", "media_data", "shave", "shave.yml"))
+```
+
+# Alci Monastery
+
+The following day (which was our extra day), we visited Alci, which has a big Monastery there. Initially, we attempted taking the local bus there, but the logistics of it was too difficult, buses didn't leave in the morning and we would have to walk 5km to the Monastery, 5km back, etc, etc... So, we just booked a driver for the day.
+
+I ended up being sick and not going to Alci. Everyone said it was really good, so i'm a bit dissapointed I didn't go. 
+
+Photography wasn't allowed.
+
+# Thoughts & Feelings
+
+I really like Leh. It has such a peaceful feeling to it. I definitely could retire here.
+
+```{r misc}
+carousel("misc", here("posts", "leh-2", "media_data", "misc", "misc.yml"))
+```

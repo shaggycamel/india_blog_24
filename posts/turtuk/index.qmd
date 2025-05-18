@@ -77,7 +77,9 @@ carousel("mnstry", here("posts", "turtuk", "media_data", "monastery", "monastery
 
 Turtuk is a really tranquil, peaceful Islamic village. They embrace their Baltistan heritage and most restaurants serve Balti food, and shops sell traditional Balti clothing.
 
-It was interesting to see the amount of Israeli tourists. Most shop signs were in Hebrew and some tourists even asked us for directions in Hebrew. They were everywhere. Mum and Dad can't seem to stand them, I don't have any reason yet to find disdain for them.
+It was interesting to see the amount of Israeli tourists. Most shop signs were in Hebrew and some tourists even asked us for directions in Hebrew. They were everywhere.
+
+<!-- Mum and Dad can't seem to stand them, I don't have any reason yet to find disdain for them. -->
 
 The cutest thing worth mentioning is, one night we went out for dinner, and a young boy, who looked about eight, beckoned us into his restaurant. He shook our hands upon entry and directed us to seats. His English was very good, we found out he was in fact eleven. He took our orders and introduced us to the chef, and then his father came to pick him up. I don't even think he worked there, he was just hanging out, practising his English. The meal was good too, I remember the power went out at one stage, and we were eating in the dark, which was a bit of fun.
 
